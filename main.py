@@ -8,7 +8,7 @@ class Car:
         self.speed += increase
         print(f"Auto nyní jede rychlostí {self.speed} km/h")
 
-    def breakk(self, decrease):
+    def brake(self, decrease):
         if(self.speed >= decrease):
             self.speed -= decrease
         else:
@@ -21,4 +21,4 @@ print(auto1.model)
 print(auto1.year)
 
 auto1.accelerate(50)
-auto1.breakk(55)
+auto1.brake(55)
